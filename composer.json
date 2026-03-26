@@ -1,7 +1,14 @@
 {
   "name": "balouch/laravel-response-kit",
   "description": "Smart API Response Formatter for Laravel",
+  "license": "MIT",
   "type": "library",
+  "authors": [
+    {
+      "name": "Muhammad Irshad Khan Balouch",
+      "email": "mcsirshad95@gmail.com"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "Balouch\\ResponseKit\\": "src/"
