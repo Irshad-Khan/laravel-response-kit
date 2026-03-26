@@ -1,0 +1,27 @@
+{
+  "name": "balouch/laravel-response-kit",
+  "description": "Smart API Response Formatter for Laravel",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Balouch\\ResponseKit\\": "src/"
+    },
+    "files": [
+      "src/Helpers.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Balouch\\ResponseKit\\ResponseServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "illuminate/support": "^10.0 || ^11.0 || ^12.0",
+    "illuminate/http": "^10.0 || ^11.0 || ^12.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^10.11"
+  }
+}
